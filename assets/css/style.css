@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+body{
+    background-color: rgb(220, 217, 217);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.sign-up-window{
+    height: 600px;
+    width: 1000px;
+    border-radius: 12px;
+    background-color: #Ffff;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.image{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.image a{
+    color: darkblue;
+    padding: 50px;
+}
+.sign-up{
+    width: 50%;
+    height: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 70px 100px;
+}
+.sign-up h1{
+    font-size: 35px;
+}
+.sign-up h1,.your-name,.password,.your-email,.rep-password{
+    margin-bottom: 30px;
+}
+.your-name{
+    position: relative;
+}
+.your-name input{
+    border: none;
+    border-bottom: 1px solid silver;
+    width: 250px;
+    height: 27px;
+}
+.your-name i{
+    font-size: 13px;
+    position: absolute;
+}
+.your-email{
+    position: relative;
+}
+.your-email input{
+    border: none;
+    border-bottom: 1px solid silver;
+    width: 250px;
+    height: 27px;
+}
+.your-email i{
+    font-size: 13px;
+    position: absolute;
+}
+.password{
+    position: relative;
+}
+.password input{
+    border: none;
+    border-bottom: 1px solid silver;
+    width: 250px;
+    height: 27px;
+}
+.password i {
+    font-size: 13px;
+    position: absolute;
+}
+.rep-password{
+    position: relative;
+}
+.rep-password input{
+    border: none;
+    border-bottom: 1px solid silver;
+    width: 250px;
+    height: 27px;
+}
+.rep-password i{
+    font-size: 13px;
+    position: absolute;
+}
+.sign-up .checkbox{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+.sign-up .checkbox p{
+    margin-left: 20px;
+    font-size: 14px;
+}
+.sign-up .checkbox input{
+    height: 18px;
+    width: 18px;
+}
+.sign-up button{
+    height: 55px;
+    width: 160px;
+    background-color: #6DABE4FF;
+    border: none;
+    border-radius: 9px;
+    color: #Ffff;
+    font-size: 17px;
+    margin-bottom: 100px;
+}
+::-webkit-input-placeholder {
+    position: absolute;
+    left: 30px;
+}
